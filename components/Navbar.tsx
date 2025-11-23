@@ -30,7 +30,7 @@ export function Navbar() {
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#leadership", label: "Leadership" },
-    { href: "#projects", label: "Projects" },
+    { href: "/projects", label: "Projects" },
     { href: "#membership", label: "Membership" },
     { href: "#contact", label: "Contact" },
   ];

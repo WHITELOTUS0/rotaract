@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { clubInfo } from "@/data/club-info";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -39,8 +40,10 @@ export function Hero() {
             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8">
               Join Us
             </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12 px-8 bg-transparent text-white border-white hover:bg-white hover:text-slate-900">
-              Our Projects <ArrowRight className="ml-2 h-4 w-4" />
+            <Button asChild size="lg" variant="outline" className="w-full sm:w-auto text-base h-12 px-8 bg-transparent text-white border-white hover:bg-white hover:text-slate-900">
+              <Link href="/projects">
+                Our Projects <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
             </Button>
           </div>
         </motion.div>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "General Medical Camp at Kyotera",
+    "description": "A comprehensive medical outreach providing essential health services to the Kyotera community.",
+    "tags": ["Dental", "Antenatal", "HIV Testing", "Immunization"],
+    "image": "/images/image2.jpeg",
+    "comingSoon": false
+  },
+  {
+    "id": "2",
+    "title": "Youth Empowerment & Community Development",
+    "description": "Upcoming initiative focused on skills training and sustainable development for local youth.",
+    "tags": ["Education", "Skills", "Community"],
+    "image": "/images/image3.jpeg",
+    "comingSoon": true
+  }
+]
