@@ -13,7 +13,7 @@ export const clubInfo = {
     day: "Sundays",
     time: "3:00 PM - 4:00 PM",
     location: "The International School of Nursing and Midwifery",
-    mapLink: "https://www.google.com/maps/place/International+Paramedical+Institute+OFFICE/@0.3529019,32.6631565,17z/data=!4m14!1m7!3m6!1s0x177db9af0ce76413:0x15ef120412fc3ac9!2sInternational+Paramedical+Institute+OFFICE!8m2!3d0.3529019!4d32.6631565!16s%2Fg%2F11gfnflxhr!3m5!1s0x177db9af0ce76413:0x15ef120412fc3ac9!8m2!3d0.3529019!4d32.6631565!16s%2Fg%2F11gfnflxhr?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
+    mapLink: "https://www.google.com/maps/place/International+Paramedical+Institute+_maya/@0.2430614,32.4137742,17z/data=!3m1!4b1!4m6!3m5!1s0x177d9f74c0f1a323:0x9221bf96224ce1f0!8m2!3d0.2430614!4d32.4137742!16s%2Fg%2F11g0j4g9zp?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
   },
   stats: {
     totalMembers: 37,

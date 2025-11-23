@@ -9,13 +9,13 @@ export function MapSection() {
         width="100%" 
         height="100%" 
         id="gmap_canvas" 
-        src="https://maps.google.com/maps?q=International+Paramedical+Institute+OFFICE&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+        src="https://maps.google.com/maps?q=0.2430614,32.4137742&t=&z=15&ie=UTF8&iwloc=&output=embed" 
         frameBorder="0" 
         scrolling="no" 
         marginHeight={0} 
         marginWidth={0}
         title="Location Map"
-        className="w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
+        className="w-full h-full"
       ></iframe>
       
       <div className="absolute bottom-4 right-4 bg-white dark:bg-slate-900 p-4 rounded-lg shadow-lg max-w-xs z-10 hidden md:block">
