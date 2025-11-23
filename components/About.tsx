@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { clubInfo } from "@/data/club-info";
-import { Calendar, MapPin, Users } from "lucide-react";
+import { Calendar, MapPin, Users, ExternalLink } from "lucide-react";
 
 export function About() {
   return (
@@ -38,7 +38,15 @@ export function About() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Location</h3>
-                    <p className="text-muted-foreground">{clubInfo.meeting.location}</p>
+                    <a 
+                      href={clubInfo.meeting.mapLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 group"
+                    >
+                      {clubInfo.meeting.location}
+                      <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
                   </div>
                 </div>
               </CardContent>
