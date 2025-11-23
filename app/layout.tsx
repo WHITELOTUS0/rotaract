@@ -10,6 +10,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rotaract-maya.org"), // Replace with actual domain when deployed
   title: "Rotaract Club of IPNS Maya",
   description: "Empowering Communities, One Partnership at a Time.",
   icons: {
