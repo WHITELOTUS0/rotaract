@@ -11,6 +11,9 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Rotaract Club of IPNS Maya",
   description: "Empowering Communities, One Partnership at a Time.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
@@ -44,7 +45,14 @@ export function Navbar() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-primary tracking-tight">
+          <Image 
+            src={clubInfo.logo} 
+            alt="Club Logo" 
+            width={40} 
+            height={40} 
+            className="h-10 w-auto"
+          />
+          <span className="text-xl font-bold text-primary tracking-tight hidden sm:inline-block">
             {clubInfo.shortName}
           </span>
         </Link>

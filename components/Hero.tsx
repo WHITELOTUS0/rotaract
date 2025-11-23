@@ -10,8 +10,8 @@ export function Hero() {
     <section id="home" className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-slate-900">
       {/* Background Image Placeholder */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40"
-        style={{ backgroundImage: "url('/placeholder-hero.jpg')" }} // Replace with real image
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-80"
+        style={{ backgroundImage: `url('${clubInfo.heroImage}')` }} 
       />
       <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent z-0" />
 
@@ -31,7 +31,7 @@ export function Hero() {
             {clubInfo.slogan}
           </h1>
           
-          <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-slate-900 dark:text-slate-300 font-medium mb-8 max-w-2xl mx-auto">
             Chartered {clubInfo.charterDate} | Sponsored by Rotary Club of Nsangi
           </p>
           

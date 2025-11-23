@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { clubInfo } from "@/data/club-info";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Projects() {
   return (
@@ -34,10 +35,12 @@ export function Projects() {
             >
               <Card className="overflow-hidden h-full flex flex-col hover:shadow-xl transition-all duration-300 border-border/50 group">
                 <div className="relative h-48 bg-muted overflow-hidden">
-                   {/* Placeholder for project image */}
-                   <div className="absolute inset-0 bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-muted-foreground">
-                      [Project Image]
-                   </div>
+                   <Image 
+                     src={project.image} 
+                     alt={project.title} 
+                     fill 
+                     className="object-cover transition-transform duration-500 group-hover:scale-110"
+                   />
                    {project.comingSoon && (
                      <div className="absolute top-4 right-4">
                        <Badge variant="secondary" className="bg-yellow-500/90 text-white hover:bg-yellow-500">Coming Soon</Badge>
