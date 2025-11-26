@@ -24,27 +24,27 @@ export const clubInfo = {
     {
       role: "President",
       name: "Sam Katoggo",
-      image: "/placeholder-president.jpg",
+      image: "/sam_katogo.jpeg",
     },
     {
       role: "Vice President",
       name: "Palvin Paul Lukyamuzi",
-      image: "/placeholder-vp.jpg",
+      image: "/palvin_vp.jpeg",
     },
     {
       role: "Treasurer",
       name: "Andrew Kisakye",
-      image: "/placeholder-treasurer.jpg",
+      image: "/andrew_kisakye.jpeg",
     },
     {
       role: "Advisor",
       name: "AG Yusufu Kigoye",
-      image: "/placeholder-advisor.jpg",
+      image: "/yusufu_kigoye.jpeg",
     },
     {
       role: "IPP",
       name: "CP Jonathan Kuteesa",
-      image: "/placeholder-ipp.jpg",
+      image: "/cp_jonathan.jpeg",
     },
   ],
   projects: [

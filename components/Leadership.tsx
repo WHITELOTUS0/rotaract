@@ -27,7 +27,7 @@ export function Leadership() {
             >
               <Card className="h-full text-center hover:shadow-lg transition-shadow border-border/50">
                 <CardHeader className="pt-8 pb-4">
-                  <Avatar className="w-24 h-24 mx-auto mb-4 ring-4 ring-primary/10">
+                  <Avatar className="w-48 h-48 mx-auto mb-4 ring-4 ring-primary/10">
                     <AvatarImage src={leader.image} alt={leader.name} />
                     <AvatarFallback className="text-lg bg-primary/5 text-primary">
                       {leader.name.split(' ').map(n => n[0]).join('')}
